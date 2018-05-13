@@ -1,0 +1,112 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+<main>
+<body>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/ani.css">
+  </head>
+  <header>
+<nav>
+<ul>
+<<<<<<< HEAD
+  <li><a href="index.html">Home</a></li>
+  <li><a href="page2.html">Two</a></li>
+  <li><a href="page3.html">Three</a></li>
+  <li><a href="page4.html">Four</a></li>
+=======
+  <li><a href="index.html">Homepage</a></li>
+  <li><a href="page1.html">About Me</a></li>
+  <li><a href="page2.html">Gallery</a></li>
+  <li><a href="page3.html">Contact Me</a></li>
+  <li><a href="page4.html">Contact Me</a></li>
+>>>>>>> bfd1c5eda8f0affd135ab05edd984578496b1b22
+</ul>
+</nav>
+</header>
+  <style media="screen">
+
+  h1{
+    border: 3px solid red;
+    margin-top: 30%;
+  }
+
+  /* start *//* headline sliding in */
+  h2{
+    background: black;
+    color:white;
+    text-align:center;
+    font-family:verdana;
+    font-size: 36px;
+    line-height: 45px;
+    transform:translate(0px,100px);
+    transition: all .6s ease-in;
+    margin-top: 10%;
+<<<<<<< HEAD
+    border: 3px ridge white;
+=======
+    border: 3px ridge red;
+>>>>>>> bfd1c5eda8f0affd135ab05edd984578496b1b22
+  }
+  #hi:hover>h2{
+    transform:translate(0px,0px);
+  }
+  /* end of headline */
+
+
+
+  /* Frame of the HTML */
+  .hi{
+    height:100%;
+    background:orange;
+    width:700;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+    transition: opacity 2s;
+  }
+  #hi:hover>.mask {
+    opacity: 0.3;
+  }
+  #hi{
+    margin-left: 30%;
+    position: absolute;
+    border:2px solid gray;
+    height: 800px;
+    width: 800px;
+    overflow:hidden;
+   transition: all 3s;
+    background-image:url("imgs/money.jpg");
+    background-size:80%;
+    background-position:center;
+  }
+  #hi:hover {
+    background-size:130%;
+  }
+  #hi:active {
+    transform:rotate(1000deg);
+  }
+  /* Frame of the HTML */
+
+
+
+  </style>
+  <div id="hi">
+  <div class="hello"></div>
+
+      <h2>"Most of us only care about money making selfishness got us following the wrong direction- Black eye'd Peas"</h2>
+      <h1>Where Is The Love?</h1>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </div>
+  </body>
+</main>
+</html>
